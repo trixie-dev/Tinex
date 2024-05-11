@@ -1,0 +1,79 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%; /* Встановлюємо висоту для всього документа */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(13, 13, 13);
+}
+
+.display {
+    height: 100%; 
+    width: 1080px;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    justify-self: center;
+    flex-direction: column;
+    height: 100%; /* Встановлюємо висоту wrapper, щоб вона відповідала висоті екрана */
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    padding: 20px 0px 20px 40px;
+}
+
+footer{
+    padding: 5px 0px 5px 40px;
+}
+
+.content {
+    /* Стилі для верхньої половини main */
+    flex: 1;
+}
+
+main {
+    flex-grow: 1; /* Збільшуємо основний вміст, щоб він заповнював залишок висоти */
+    padding: 20px;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Розподіляємо вміст всередині main */
+}
+
+.simple-hr{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(112, 112, 112);
+    border: none;
+}
+/* ---------- Texts ----------*/
+.subtitle{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 26px;
+}
+
+.default-button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}

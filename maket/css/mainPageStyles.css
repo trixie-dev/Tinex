@@ -1,0 +1,29 @@
+
+
+.button-grid {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два стовпчики */
+    gap: 30px; /* Відступ між кнопками */
+    padding-top: 20px;
+    /*max-height: 200px; /* Максимальна висота для кнопок */
+    /*overflow-y: auto; /* Дозволяє вертикальну прокрутку */
+}
+
+.mode-button {
+    padding: 50px 10px 50px 10px;
+    
+    background-color: rgb(13, 13, 13);
+    color: white;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.mode-button:hover {
+    background-color: rgb(48, 48, 48);
+}

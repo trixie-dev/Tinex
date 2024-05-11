@@ -1,0 +1,84 @@
+.title{
+    font-size: 22px;
+    color: rgb(112, 112, 122);
+    padding-top: 8px;
+}
+
+.finish-button{
+    color: rgb(112, 112, 112);
+    margin-right: 20px;
+}
+
+.question-display{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.buffer-area{
+    flex: 2;
+    
+}
+
+.button-panel{
+    flex: 1;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* TODO: It value need to edit from cs */
+    
+}
+
+
+.control-button{
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+.show-button {
+    display: block; /* TODO: It value need to edit from cs */
+}
+
+.correct-answer-button{
+    background-color: rgb(27, 68, 0);
+}
+
+.wrong-answer-button{
+    background-color: rgb(68, 0, 0);
+}
+
+.correct-answer-button, .wrong-answer-button{
+    border: 2px solid rgb(20, 20, 20);
+    display: block; /* TODO: It value need to edit from cs */
+}
+
+
+.progress-text{
+    color: rgb(112, 112, 122);
+    font-size: 14px;
+}
+
+.question-text{
+    color: rgb(102, 255, 0);
+    padding: 16px 40px 16px 40px;
+}
+
+.answer-text{
+    color: white;
+    padding: 16px 40px 16px 40px;
+}
+
+.text-hr{
+    color: white;
+}
