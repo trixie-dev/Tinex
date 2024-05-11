@@ -18,7 +18,7 @@ html, body {
 
 .wrapper {
     display: flex;
-    max-width: 500px;
+    max-width: 1080px;
     margin: auto;
     justify-self: center;
     flex-direction: column;
